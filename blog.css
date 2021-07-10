@@ -1,0 +1,32 @@
+body{
+  background-color: #FFBD9B;
+}
+h2{
+  text-align: center;
+}
+textarea{
+  margin-left: 24px;
+   display: inline-block;
+  width: 95%;
+  padding: 10px;
+  position:absolute;
+  top: 125px;
+  background-color: #E1E5EA;
+  border-color: green;
+}
+.reset{
+  background-color: #BF1363;
+  color: white;
+  padding: 12px 25px;
+  position: fixed;
+  left: 100px;
+  bottom: 25px;
+}
+.save{
+  background-color: #3B14A7;
+  color: white;
+  padding: 12px 25px;
+  position: fixed;
+  right: 100px;
+  bottom: 25px;
+}
