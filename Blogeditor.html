@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="blog.css">
+    <link href="//netdna.bootstrapcdn.com/bootstrap/3.1.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+  </head>
+  <body>
+    <h2>Write Your Own Blog!</h2>
+    <textarea name="name" rows="32" cols="90"></textarea>
+    <button class="reset" onClick="window.location.reload();"type="reset" name="button">Reset</button>
+    <button class ="save" id="save" onclick="myFunction()" type="save" name="button">Save</button>
+    <script>
+      function myFunction() {
+        alert("Your Content has been saved!");
+      }
+    </script>
+    <script src="blog.js" charset="utf-8"></script>
+  </body>
+</html>
